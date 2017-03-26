@@ -8,3 +8,8 @@ C:\Users\msn\Desktop\ParseNodes\src\ParseNodes\bin\Debug\ParseNodes.pdb
 C:\Users\msn\Desktop\ParseNodes\src\ParseNodes\obj\Debug\ParseNodes.csprojResolveAssemblyReference.cache
 C:\Users\msn\Desktop\ParseNodes\src\ParseNodes\obj\Debug\ParseNodes.dll
 C:\Users\msn\Desktop\ParseNodes\src\ParseNodes\obj\Debug\ParseNodes.pdb
+C:\Users\msn\Source\Repos\ParseNodes\src\ParseNodes\bin\Debug\ParseNodes.dll
+C:\Users\msn\Source\Repos\ParseNodes\src\ParseNodes\bin\Debug\ParseNodes.pdb
+C:\Users\msn\Source\Repos\ParseNodes\src\ParseNodes\obj\Debug\ParseNodes.csprojResolveAssemblyReference.cache
+C:\Users\msn\Source\Repos\ParseNodes\src\ParseNodes\obj\Debug\ParseNodes.dll
+C:\Users\msn\Source\Repos\ParseNodes\src\ParseNodes\obj\Debug\ParseNodes.pdb
