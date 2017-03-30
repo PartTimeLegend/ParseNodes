@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseNodes", "src\ParseNode
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseNodes.Tests", "src\ParseNodes.Tests\ParseNodes.Tests.csproj", "{228E8DAC-5BB0-43AC-97C4-78DAAC6583F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseNodes.WinForms", "src\ParseNodes.WinForms\ParseNodes.WinForms.csproj", "{8894EE0A-2BDE-4E88-B2DF-7F49E92B30E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{228E8DAC-5BB0-43AC-97C4-78DAAC6583F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{228E8DAC-5BB0-43AC-97C4-78DAAC6583F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{228E8DAC-5BB0-43AC-97C4-78DAAC6583F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8894EE0A-2BDE-4E88-B2DF-7F49E92B30E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8894EE0A-2BDE-4E88-B2DF-7F49E92B30E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8894EE0A-2BDE-4E88-B2DF-7F49E92B30E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8894EE0A-2BDE-4E88-B2DF-7F49E92B30E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

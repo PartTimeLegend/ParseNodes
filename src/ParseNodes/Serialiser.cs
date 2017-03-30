@@ -12,25 +12,29 @@ namespace ParseNodes
             List<ExitNode> exitNodes = new List<ExitNode>();
             ExitNode exitNode = new ExitNode();
             foreach (string line in splitList)
-            {
+            {   
                 string strippedLine = StripString(line);
                 if (line.Contains("ExitNode"))
                 {
                     exitNode.ExitNodeId = strippedLine;
                 }
-                else if (line.Contains("Published"))
+                if (line.Contains("Published"))
                 {
                     exitNode.Published = Convert.ToDateTime(strippedLine);
                 }
-                else if (line.Contains("LastStatus"))
+                if (line.Contains("LastStatus"))
                 {
                     exitNode.LastStatus = Convert.ToDateTime(strippedLine);
                 }
-                else if (line.Contains("ExitAddress"))
+                if (line.Contains("ExitAddress"))
                 {
                     exitNode.ExitAddress = strippedLine.Substring(0, strippedLine.IndexOf(" ", StringComparison.Ordinal));
                 }
-                exitNodes.Add(exitNode);
+                if (exitNode.ExitNodeId != null && exitNode.ExitAddress != null && !exitNode.LastStatus.Equals(DateTime.MinValue) && !exitNode.Published.Equals(DateTime.MinValue))
+                {
+                    exitNodes.Add(exitNode);
+                    exitNode = new ExitNode();
+                }
             }
             return exitNodes;
         }
