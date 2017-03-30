@@ -37,14 +37,14 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(128, 12);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(569, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(471, 150);
             this.dataGridView1.TabIndex = 0;
             // 
             // btnFetch
             // 
-            this.btnFetch.Location = new System.Drawing.Point(327, 199);
+            this.btnFetch.Location = new System.Drawing.Point(29, 168);
             this.btnFetch.Name = "btnFetch";
             this.btnFetch.Size = new System.Drawing.Size(75, 23);
             this.btnFetch.TabIndex = 1;
@@ -54,7 +54,7 @@
             // 
             // btnJSON
             // 
-            this.btnJSON.Location = new System.Drawing.Point(466, 199);
+            this.btnJSON.Location = new System.Drawing.Point(378, 168);
             this.btnJSON.Name = "btnJSON";
             this.btnJSON.Size = new System.Drawing.Size(75, 23);
             this.btnJSON.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(864, 264);
+            this.ClientSize = new System.Drawing.Size(495, 198);
             this.Controls.Add(this.btnJSON);
             this.Controls.Add(this.btnFetch);
             this.Controls.Add(this.dataGridView1);
